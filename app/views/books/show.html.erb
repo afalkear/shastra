@@ -1,0 +1,61 @@
+<p>
+  <b>Isbn-10:</b>
+  <%=h @book.isbn %>
+</p>
+<p>
+  <b>Isbn-13:</b>
+  <%=h @book.isbn13 %>
+</p>
+<p>
+  <b>Title:</b>
+  <%=h @book.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @book.description %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%=h @book.author %>
+</p>
+
+<p>
+  <b>Publisher:</b>
+  <%=h @book.publisher %>
+</p>
+
+<p>
+  <b>Group:</b>
+  <%=h @book.group %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%=h @book.image_url %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @book.price %>
+</p>
+
+<p>
+  <b>Used:</b>
+  <%=h @book.used %>
+</p>
+
+<p>
+  <b>Condition:</b>
+  <%=h @book.condition %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%=h @book.country %>
+</p>
+
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
